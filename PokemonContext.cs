@@ -10,8 +10,7 @@ namespace CobbleStone_API.Models
     {
         public PokemonContext() : base("name=PokemonDB")
         {
-            //I'm unfamiliar with how the database will be created outside of my enviornment, so I will have it re-created each time the application is ran. I wont have access to an entity data model because of this.
-            
+            //I'm unfamiliar with how the database will be created outside of my enviornment, so I will have it re-created each time the application is ran.
             Database.SetInitializer<PokemonContext>(new DropCreateDatabaseAlways<PokemonContext>());
         }
         public DbSet<Pokemon> Pokemons { get;set; }

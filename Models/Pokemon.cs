@@ -14,7 +14,7 @@ namespace CobbleStone_API.Models
         public int PokemonId { get; set; }
         [Key]
         public string PokemonName { get; set; }
-        public string Type1 { get; set; } //I suppose I could create enum type for Type1 & Type2 but strings are easier for me to work with.
+        public string Type1 { get; set; }
         public string Type2 { get; set; }
         public int Total { get; set; }
         public int HP { get; set; }

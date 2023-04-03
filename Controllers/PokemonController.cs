@@ -41,7 +41,7 @@ namespace CobbleStone_API.Controllers
                 return result;
             }
         }
-        //public List<Pokemon> GetPokemonFiltered([FromUri]Pokemon model) //I'm almost past the deadline, so I'm stopping here and commenting out unusable code
+        //public List<Pokemon> GetPokemonFiltered([FromUri]Pokemon model) 
         //{
             
         //    using (var db = new PokemonContext())
